@@ -1,6 +1,6 @@
 # Commenting addition example
 
-# Packages
+# Packages another addition
 install.packages(c("devtools","knitr","rmarkdown")) # or use UI
 devtools::install_github("SMAC-Group/introDS")
 
