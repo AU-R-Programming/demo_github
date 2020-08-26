@@ -1,4 +1,4 @@
-# Commenting
+# Commenting addition example
 
 # Packages
 install.packages(c("devtools","knitr","rmarkdown")) # or use UI
