@@ -1,7 +1,8 @@
 # Commenting
 
-# Packages another addition
+# Packages
 install.packages(c("devtools","knitr","rmarkdown")) # or use UI
+
 devtools::install_github("SMAC-Group/introDS")
 
 # Load package
@@ -63,13 +64,13 @@ write.table()
 write.xlsx()
 
 # Probabilities
-pnorm(q = 160, mean = 170, sd = 15)
+pnorm(q = 90, mean = 70, sd = 15, lower.tail = FALSE)
 
 library(tigerstats) # plotting areas for probabilities
-pnormGC(160, region = "below", mean = 170, sd = 15, graph=TRUE)
+pnormGC(90, region = "above", mean = 70, sd = 15, graph=TRUE)
 pnormGC(c(-1.96, 1.96), region = "between", mean = 0, sd = 1, graph=TRUE)
 
-simulation <- rnorm(10, m = 170, s = 15)
+simulation <- rnorm(100, mean = 70, sd = 15)
 hist(simulation)
 
 
