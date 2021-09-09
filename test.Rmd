@@ -1,0 +1,19 @@
+---
+title: 'irg Vignette'
+bibliography: rob.bib
+output: html_document
+---
+
+The `irg` package is based on the procedure proposed in @heerah2021granger.
+
+```{r, message=FALSE}
+library(irg)
+```
+
+The functions made available allow to perform Granger-Causal testing for signals that are sampled at the same but irregularly spaced time points. Before using the functions in the package, the signals need to be pre-processed such that they are detrended (mean-stationary) and standardized (normalized). Below we show some examples of possible ways of pre-processing the signals as well as how to use the main functions of the package.
+
+# Data Pre-Processing
+ Bla bla bla
+$$\theta := \big[\phi_{root},\, \psi_{root},\, \gamma_{root},\, \sigma_{root}^2,\, \phi_{shoot},\, \psi_{shoot},\, \gamma_{shoot},\, \sigma_{shoot}^2\big].$$
+
+# Reference
