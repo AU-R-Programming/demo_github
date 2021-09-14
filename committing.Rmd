@@ -1,0 +1,14 @@
+---
+title: "Untitled"
+output: html_document
+---
+# Exercise 1
+
+## Me
+
+## You
+
+## The other
+
+#
+x = 2
